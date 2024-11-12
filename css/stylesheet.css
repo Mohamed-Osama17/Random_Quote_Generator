@@ -1,0 +1,70 @@
+/**=====Global-Start=====*/
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+/**=====Global-End=====*/
+
+
+/**=====Header-start=====*/
+.home {
+    background-image: linear-gradient(to right, rgba(220, 20, 60, 0.527), rgba(0, 255, 255, 0.527));
+    color: crimson;
+}
+.card {
+    background-color: #ffffffbd;
+    box-shadow: 3px 3px 17px -8px #00000091;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    padding-right: 9.375rem;
+    padding-left: 9.375rem;
+}
+.card-body .card-title {
+    color: rgba(220, 20, 60, 0.945);
+    text-shadow: -2px .1008px 0px #80001130;
+    font-size: 3.125rem;
+    font-weight: 500;
+    font-family: "Diphylleia", serif;
+    ;
+}
+.card-body .card-text {
+    color: rgba(220, 20, 60, 0.945);
+    font-family: "Ysabeau Office", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.card-body .quote {
+    color: rgba(220, 20, 60, 0.945);
+    font-family: "Ysabeau Office", serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: italic;
+}
+.card-body .author {
+    color: rgb(20 155 220);
+    font-family: "Ysabeau Office", serif;
+    font-size: 1.0938rem;
+    font-weight: 400;
+    font-style: italic;
+}
+.card-body .btn-main {
+    background-image: linear-gradient(to right, rgb(220 20 60 / 48%), rgb(0 255 255 / 48%));
+    border-radius: .625rem;
+    border: inherit;
+    --bs-btn-bg: transparent;
+    --bs-btn-color: #ffffffee;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: crimson;
+    --bs-btn-hover-border-color: crimson;
+    letter-spacing: .0625rem;
+    font-weight: bolder;
+    box-shadow: 1px 3px 7px -5px #4f0b4fc4;
+}
+.card-header,
+.card-footer {
+    color: crimson;
+}
+/**=====Header-End=====*/

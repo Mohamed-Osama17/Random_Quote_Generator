@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <!--!=====Google-Fonts-Ysabeau-Office=====-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap"
+        rel="stylesheet">
+    <!--!=====Google-Fonts-Diphylleia=====-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+    <!--!=====Font-Awesome=====-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--!=====Bootstrap-minified-sheet=====-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--!=====Main-style-sheet=====-->
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <!--?=====header=====-->
+    <header id="home" class="home min-vh-100 d-flex justify-content-center align-items-center">
+        <div class="card text-center">
+            <div class="card-header p-0 bg-transparent border-bottom-0 mb-3">
+                <i class="fa-solid fa-quote-left"></i>
+            </div>
+            <div class="card-body">
+                <h1 class="card-title pb-2">Quote of the day</h1>
+                <p class="card-text p-2">Press the button below to recieve a random quote !</p>
+                <a href="#" class="btn btn-primary btn-main" onclick='generateQuote();'>New Quote</a>
+                <p id='quote' class="quote pt-4"></p>
+                <p id='author' class="author"></p>
+            </div>
+            <div class="card-footer p-0 bg-transparent border-top-0 mt-3 ">
+                <i class="fa-solid fa-quote-right"></i>
+            </div>
+
+        </div>
+    </header>
+    <!--!=====Main-JS=====-->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
