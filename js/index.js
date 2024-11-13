@@ -68,21 +68,6 @@ var arrayOfQuotes = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // we using this variabl (the previousIndex variable) to prevent showing the same quote consecutively
 let previousIndex
 
@@ -105,8 +90,6 @@ function generateQuote() {
    document.getElementById("author").innerHTML = "--" + arrayOfQuotes[index].author;
 }
 
-// invoke the function
-generateQuote();
 
 
 
